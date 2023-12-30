@@ -14,7 +14,7 @@ Welcome to Sport-Card-Game, your virtual pit stop for the latest updates and sta
       <a href="https://github.com/ZulfiqarG/sportcardgame"><strong>Explore the docs »</strong></a>
       <br/>
       <br/>
-      <a href="https://p1-heroes/">View Live Website</a>
+      <a href="https://sportcardgame.vercel.app/">View Live Website</a>
       ·
       <a href="https://github.com/ZulfiqarG/sportcardgame/issues">Report Bug</a>
       ·

@@ -3,7 +3,7 @@
     <a href="https://github.com/ZulfiqarG/sportcardgame">
       <img src="./public/images/logo.svg" alt="Logo" width="200" height="200">
     </a>
-    <h3 align="center">Sport-Card-Game</h3>
+    <h3 align="center">Sport-Card-Game</h3>   
     <p align="center">
     <br/>
 Welcome to Sport-Card-Game, your virtual pit stop for the latest updates and standings in the world of Formula 1. But that's not all—we've also got the ultimate card game where driver knowledge is the key to victory. Join us and become a true F1 expert!   <br/>

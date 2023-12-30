@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Landing from "./pages/landing/Landing";
+import Standings from "./pages/standings/Standings";
+import Mailing from "./pages/mailing/Mailing";
+import Game from "./pages/game/Game";
+import Footer from "./components/Footer";
+
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/standings" element={<Standings />} />
+        <Route path="/mailing" element={<Mailing />} />
+        <Route path="/game" element={<Game />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
 
